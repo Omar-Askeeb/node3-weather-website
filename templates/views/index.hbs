@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+          <link rel="icon" href="./img/weather.png">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    
+    <title>Handelbar Main View</title>
+</head>
+
+<body>
+    <h1>handelbar</h1>
+   <h1>{{title}}</h1>
+   <h2>{{name}}</h2>
+   <form>
+         <input type="text" placeholder="Enter an address">
+         <button>Search</button>
+   </form>
+
+   <p id="error"></p>
+   <p id="response"></p>
+{{>footer}}
+
+
+<script src="./js/app.js"></script>
+</body>
+
+</html>
